@@ -15,7 +15,7 @@ Create a World Cup competition Database using MySQL at a fundamental level.
 
 * Clone this repo
 ```
-git clone 
+git clone https://github.com/Kwang1402/USTH-FDB-Final-Project.git
 ```
 * Or install the zip file
 
