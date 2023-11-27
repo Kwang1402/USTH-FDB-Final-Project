@@ -48,20 +48,27 @@ CREATE TABLE Stadiums (
     PRIMARY KEY (Id)
 );
 
+CREATE TABLE Rounds (
+	Id INT NOT NULL,
+    RoundName VARCHAR(50),
+    PRIMARY KEY (Id)
+);
+
 CREATE TABLE Matches ( 
 	Id INT NOT NULL,
     HomeTeamId INT,
     AwayTeamId INT,
     StadiumId INT,
     RefereeId INT,
+    RoundId INT,
     MatchDate DATE,
     Attendance INT,
-    Round VARCHAR(50),
     PRIMARY KEY (Id),
     FOREIGN KEY (HomeTeamId) REFERENCES Teams(Id),
     FOREIGN KEY (AwayTeamId) REFERENCES Teams(Id),
     FOREIGN KEY (StadiumId) REFERENCES Stadiums(Id),
-    FOREIGN KEY (RefereeId) REFERENCES Referees(Id)
+    FOREIGN KEY (RefereeId) REFERENCES Referees(Id),
+	FOREIGN KEY (RoundId) REFERENCES Rounds(Id)
 );
 
 CREATE TABLE MatchEvents(
