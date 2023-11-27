@@ -16,7 +16,7 @@ CREATE TABLE Players (
     Age INT,
     Position VARCHAR(50),
     ShirtNumber INT,
-    TeamID INT,
+    TeamId INT,
     PRIMARY KEY (Id),
     FOREIGN KEY (TeamId) REFERENCES Teams(Id)
 );
@@ -52,16 +52,16 @@ CREATE TABLE Matches (
 	Id INT NOT NULL,
     HomeTeamId INT,
     AwayTeamId INT,
-    StadiumID INT,
-    RefereeID INT,
+    StadiumId INT,
+    RefereeId INT,
     MatchDate DATE,
     Attendance INT,
     Round VARCHAR(50),
     PRIMARY KEY (Id),
     FOREIGN KEY (HomeTeamId) REFERENCES Teams(Id),
     FOREIGN KEY (AwayTeamId) REFERENCES Teams(Id),
-    FOREIGN KEY (StadiumID) REFERENCES Stadiums(Id),
-    FOREIGN KEY (RefereeID) REFERENCES Referees(Id)
+    FOREIGN KEY (StadiumId) REFERENCES Stadiums(Id),
+    FOREIGN KEY (RefereeId) REFERENCES Referees(Id)
 );
 
 CREATE TABLE MatchEvents(
@@ -69,7 +69,7 @@ CREATE TABLE MatchEvents(
     EventType VARCHAR(50),
     PlayerId INT,
     PRIMARY KEY (Id),
-    FOREIGN KEY (PlayerID) REFERENCES Players(Id)
+    FOREIGN KEY (PlayerId) REFERENCES Players(Id)
 );
 
 CREATE TABLE LineUps (
@@ -78,5 +78,5 @@ CREATE TABLE LineUps (
     MatchId INT,
     PRIMARY KEY (Id),
 	FOREIGN KEY (PlayerId) REFERENCES Players(Id),
-    FOREIGN KEY (MatchID) REFERENCES Matches(Id)
+    FOREIGN KEY (MatchId) REFERENCES Matches(Id)
 );
