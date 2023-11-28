@@ -2,11 +2,18 @@ DROP DATABASE IF EXISTS worldcup;
 CREATE DATABASE IF NOT EXISTS worldcup;
 USE worldcup;
 
+CREATE TABLE TeamGroups (
+	Id INT NOT NULL,
+    GroupName VARCHAR(1),
+    PRIMARY KEY (Id)
+);
+
 CREATE TABLE Teams (
 	Id INT NOT NULL,
 	TeamName VARCHAR(50),
-    GroupName VARCHAR(1),
-    PRIMARY KEY (Id)
+    GroupId INT,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (GroupId) REFERENCES TeamGroups(Id)
 );
 
 CREATE TABLE PlayerPositions (
