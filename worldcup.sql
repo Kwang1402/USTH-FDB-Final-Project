@@ -57,7 +57,7 @@ CREATE TABLE Referees (
 CREATE TABLE Stadiums (
 	Id INT NOT NULL,
     StadiumName VARCHAR(50),
-    Location VARCHAR(50),
+    City VARCHAR(50),
     Capacity INT,
     PRIMARY KEY (Id)
 );
