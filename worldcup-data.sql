@@ -45,5 +45,16 @@ INSERT INTO Stadiums (Id, StadiumName, City, Capacity) VALUES (7, 'Stadium 974',
 INSERT INTO Stadiums (Id, StadiumName, City, Capacity) VALUES (8, 'Al Janoub Stadium', 'Al Wakrah', 44325);
 # 8 records
 
+#
+# Dumping data for table 'TeamGroups'
+#
 
-
+INSERT INTO TeamGroups (Id, GroupName) VALUES (1, 'A');
+INSERT INTO TeamGroups (Id, GroupName) VALUES (2, 'B');
+INSERT INTO TeamGroups (Id, GroupName) VALUES (3, 'C');
+INSERT INTO TeamGroups (Id, GroupName) VALUES (4, 'D');
+INSERT INTO TeamGroups (Id, GroupName) VALUES (5, 'E');
+INSERT INTO TeamGroups (Id, GroupName) VALUES (6, 'F');
+INSERT INTO TeamGroups (Id, GroupName) VALUES (7, 'G');
+INSERT INTO TeamGroups (Id, GroupName) VALUES (8, 'H');
+# 8 records
