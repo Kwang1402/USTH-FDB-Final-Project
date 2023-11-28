@@ -9,16 +9,29 @@ CREATE TABLE Teams (
     PRIMARY KEY (Id)
 );
 
+CREATE TABLE PlayerPositions (
+	Id INT NOT NULL,
+    Position VARCHAR(50),
+    PRIMARY KEY (Id)
+);
+
+CREATE TABLE StaffPositions (
+	Id INT NOT NULL,
+    Position VARCHAR(50),
+    PRIMARY KEY (Id)
+);
+
 CREATE TABLE Players (
 	Id INT NOT NULL,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
     Age INT,
-    Position VARCHAR(50),
+    PositionId INT,
     ShirtNumber INT,
     TeamId INT,
     PRIMARY KEY (Id),
-    FOREIGN KEY (TeamId) REFERENCES Teams(Id)
+    FOREIGN KEY (TeamId) REFERENCES Teams(Id),
+    FOREIGN KEY (PositionId) REFERENCES PlayerPositions(Id)
 );
 
 CREATE TABLE Staffs (
@@ -27,9 +40,10 @@ CREATE TABLE Staffs (
     LastName VARCHAR(50),
     TeamId INT,
     Nationality VARCHAR(50),
-    Position VARCHAR(50),
+    PositionId INT,
     PRIMARY KEY (Id),
-    FOREIGN KEY (TeamId) REFERENCES Teams(Id)
+    FOREIGN KEY (TeamId) REFERENCES Teams(Id),
+	FOREIGN KEY (PositionId) REFERENCES StaffPositions(Id)
 );
 
 CREATE TABLE Referees (
@@ -75,8 +89,10 @@ CREATE TABLE MatchEvents(
 	Id INT NOT NULL,
     EventType VARCHAR(50),
     PlayerId INT,
+    MatchId INT,
     PRIMARY KEY (Id),
-    FOREIGN KEY (PlayerId) REFERENCES Players(Id)
+    FOREIGN KEY (PlayerId) REFERENCES Players(Id),
+	FOREIGN KEY (MatchId) REFERENCES Matches(Id)
 );
 
 CREATE TABLE LineUps (
