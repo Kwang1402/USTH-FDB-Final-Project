@@ -96,3 +96,45 @@ INSERT INTO Teams (Id, TeamName, GroupId) VALUES (30, 'South Korea', 8);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (31, 'Uruguay', 8);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (32, 'Ghana', 8);
 # 32 records
+
+#
+# Dumping data for table 'Referees'
+#
+
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (1, 'Abdulrahman', 'Al-Jassim', 'Qatar');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (2, 'Chris', 'Beath', 'Australia');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (3, 'Alireza', 'Faghani', 'Iran');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (4, 'Ma', 'Ning', 'China');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (5, 'Hassan', 'Mohamed', 'United Arab Emirates');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (6, 'Yoshimi', 'Yamashita', 'Japan');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (7, 'Bakary', 'Gassama', 'Gambia');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (8, 'Mustapha', 'Ghorbal', 'Algeria');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (9, 'Victor', 'Gomes', 'South Africa');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (10, 'Maguette', 'Ndiaye', 'Senegal');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (11, 'Janny', 'Sikazwe', 'Zambia');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (12, 'Salima', 'Mukansanga', 'Rwanda');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (13, 'Ivan', 'Barton', 'El Salvador');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (14, 'Ismail', 'Elfath', 'United States');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (15, 'Mario', 'Escobar', 'Guatemala');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (16, 'Said', 'Martinez', 'Honduras');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (17, 'Arturo', 'Ramos', 'Mexico');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (18, 'Raphael', 'Claus', 'Brazil');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (19, 'Andres', 'Matonte', 'Uruguay');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (20, 'Kevin', 'Ortega', 'Peru');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (21, 'Fernando', 'Rapallini', 'Argentina');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (22, 'Facundo', 'Tello', 'Argentina');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (23, 'Jesus', 'Valenzuela', 'Venezuela');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (24, 'Wilton', 'Sampaio', 'Brazil');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (25, 'Matthew', 'Conger', 'New Zealand');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (26, 'Istvan', 'Kovacs', 'Romania');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (27, 'Danny', 'Makkelie', 'Netherlands');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (28, 'Szymon', 'Marciniak', 'Poland');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (29, 'Mateu', 'Lahoz', 'Spain');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (30, 'Michael', 'Oliver', 'England');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (31, 'Danielle', 'Orsato', 'Italy');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (32, 'Daniel', 'Siebert', 'Germany');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (33, 'Anthony', 'Taylor', 'England');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (34, 'Clement', 'Turpin', 'France');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (35, 'Slavko', 'Vincic', 'Slovenia');
+INSERT INTO Referees (Id, FirstName, LastName, Nationality) VALUES (36, 'Stephanie', 'Frappart', 'France');
+# 36 records
