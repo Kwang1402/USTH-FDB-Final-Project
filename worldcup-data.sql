@@ -58,3 +58,41 @@ INSERT INTO TeamGroups (Id, GroupName) VALUES (6, 'F');
 INSERT INTO TeamGroups (Id, GroupName) VALUES (7, 'G');
 INSERT INTO TeamGroups (Id, GroupName) VALUES (8, 'H');
 # 8 records
+
+#
+# Dumping data for table 'Teams'
+#
+
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (1, 'Netherlands', 1);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (2, 'Senegal', 1);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (3, 'Ecuador', 1);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (4, 'Qatar', 1);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (5, 'England', 2);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (6, 'United States', 2);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (7, 'Iran', 2);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (8, 'Wales', 2);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (9, 'Argentina', 3);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (10, 'Poland', 3);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (11, 'Mexico', 3);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (12, 'Saudi Arabia', 3);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (13, 'France', 4);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (14, 'Australia', 4);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (15, 'Tunisia', 4);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (16, 'Denmark', 4);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (17, 'Japan', 5);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (18, 'Spain', 5);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (19, 'Germany', 5);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (20, 'Costa Rica', 5);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (21, 'Morrocco', 6);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (22, 'Croatia', 6);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (23, 'Belgium', 6);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (24, 'Canada', 6);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (25, 'Brazil', 7);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (26, 'Switzerland', 7);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (27, 'Cameroon', 7);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (28, 'Serbia', 7);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (29, 'Portugal', 8);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (30, 'South Korea', 8);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (31, 'Uruguay', 8);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (32, 'Ghana', 8);
+# 32 records
