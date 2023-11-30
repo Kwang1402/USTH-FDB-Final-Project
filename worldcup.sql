@@ -97,6 +97,7 @@ CREATE TABLE MatchEvents(
     EventType VARCHAR(50),
     PlayerId INT,
     MatchId INT,
+    Minute INT,
     PRIMARY KEY (Id),
     FOREIGN KEY (PlayerId) REFERENCES Players(Id),
 	FOREIGN KEY (MatchId) REFERENCES Matches(Id)
