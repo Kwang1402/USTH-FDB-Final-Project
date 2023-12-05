@@ -33,6 +33,8 @@ CREATE TABLE Players (
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
     Age INT,
+    Height INT,
+    Weight INT,
     PositionId INT,
     ShirtNumber INT,
     TeamId INT,
