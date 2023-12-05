@@ -83,7 +83,7 @@ INSERT INTO Teams (Id, TeamName, GroupId) VALUES (17, 'Japan', 5);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (18, 'Spain', 5);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (19, 'Germany', 5);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (20, 'Costa Rica', 5);
-INSERT INTO Teams (Id, TeamName, GroupId) VALUES (21, 'Morrocco', 6);
+INSERT INTO Teams (Id, TeamName, GroupId) VALUES (21, 'Morocco', 6);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (22, 'Croatia', 6);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (23, 'Belgium', 6);
 INSERT INTO Teams (Id, TeamName, GroupId) VALUES (24, 'Canada', 6);
