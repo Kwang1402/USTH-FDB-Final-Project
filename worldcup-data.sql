@@ -331,7 +331,7 @@ INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, S
 INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (118, 'Abdelhamid', 'Sabiri', 27, 183, 80, 3, 11, 21);
 INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (119, 'Sofiane', 'Boufal', 30, 175, 60, 4, 17, 21);
 INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (120, 'Achraf', 'Dari', 24, 188, 84, 2, 20, 21);
-INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (121, 'Soyfyan', 'Amrabat', 27, 183, 70, 3, 4, 21);
+INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (121, 'Nayef', 'Ageurd', 27, 190, 76, 2, 5, 21);
 INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (122, 'Dominik', 'Livakovic', 28, 187, 79, 1, 1, 22);
 INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (123, 'Marko', 'Livaja', 30, 182, 80, 4, 14, 22);
 INSERT INTO Players (Id, FirstName, LastName, Age, Height, Weight, PositionId, ShirtNumber, TeamId) VALUES (124, 'Andrej', 'Kramaric', 32, 177, 73, 4, 9, 22);
