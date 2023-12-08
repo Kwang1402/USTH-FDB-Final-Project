@@ -814,7 +814,7 @@ INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (48, 1, 6);
 INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (49, 3, 6);
 INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (51, 2, 6);
 INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (52, 8, 6);
-INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (52, 4, 6);
+INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (53, 4, 6);
 INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (100, 24, 7);
 INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (101, 25, 7);
 INSERT INTO LineUps (Id, PlayerId, MatchId) VALUES (102, 26, 7);
